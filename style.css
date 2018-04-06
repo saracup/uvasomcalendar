@@ -1,0 +1,135 @@
+/* Calendar Widget
+************************************/
+.widget_uvasomcalendarwidget {
+  font-family: "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.widget_uvasomcalendarwidget .widgettitle {
+  width: 94%;
+  margin: 0 0 10px 0;
+  font-size:1.5em;
+  padding:0 0 0 10px;
+}
+.widget_uvasomcalendarwidget .widgettitle small {
+  display: inline-block;
+  font-style: italic;
+  font-size: 0.5em;
+  float: right;
+  margin-top: 12px;
+}
+.entry-content ul.calendar, .entry-content ul.calendar li,
+.widget ul.calendar, .widget ul.calendar li,
+.widgets_on_page ul li.widget_uvasomcalendarwidget ul li {
+	list-style-type:none;
+}
+.widget ul.calendar {
+	margin-top:20px;
+	padding-left:0;
+	padding-right:0;
+}
+.widgets_on_page ul li.widget_uvasomcalendarwidget ul li,
+.widgets_on_page ul li.widget_uvasomcalendarwidget ul li ul.calendar,
+.widgets_on_page ul li.widget_uvasomcalendarwidget ul li ul.calendar li,
+.widgets_on_page ul,.widgets_on_page ul li  {
+	font-size:1.2em;
+	list-style-image:none;
+	margin:0 0 .5rem 0;
+}
+.widgets_on_page .widget_uvasomcalendarwidget p {
+	margin-top:0;
+	padding-top:0;
+}
+.calendar span.eventlocation {
+	width:100%;
+	display:block;
+	clear:both;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #666;
+}
+.calendar {
+  margin-bottom: 20px;
+}
+.calendar li {
+  background: #f6f6f6 !important;
+  padding: 0 20px 0 0;
+  /* for IE */
+
+  zoom: 1;
+  line-height: 1.5;
+  margin: 10px 0 0 0;
+  position:relative;
+}
+.calendar li:before,
+.calendar li:after {
+  content: "";
+  display: table;
+}
+.calendar li:after {
+  clear: both;
+}
+/*.calendar li:first-child {
+  margin: 0;
+}*/
+.calendar .date {
+  background: url('cal-date-bg.png') no-repeat 10px 10px;
+  color: #ffffff;
+  font-size: 0.75em;
+  font-family: "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  width: 42px;
+  padding: 14px 9px 24px 9px;
+  line-height: 1;
+  float: left;
+}
+.calendar .date .day {
+  font-size: 1.6em;
+  display: block;
+}
+.calendar .description {
+  overflow: hidden;
+  padding: 10px 10px 10px 0;
+  font-size: 0.9em;
+}
+.calendar .description h1 {
+  margin-top:0px;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height:1.05em;
+}
+.calendar .description p {
+  font-family: "proxima-nova-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin:0;
+  color:#175D8C;
+  font-size:0.9em;
+  line-height:1.3em;
+}
+.widget_uvasomcalendarwidget h4.widgettitle span.widgettitle-right a {
+	float:right;
+	clear:none;
+	font-size:0.65em;
+	padding-top:7px;
+	font-style:italic;
+	letter-spacing:.05em;
+}
+body.site-type_education .widget_uvasomcalendarwidget h4.widgettitle span.widgettitle-right a {
+	color:#ff7003;
+}
+button.uvasomical {
+	padding:0 1px;
+	margin:.6rem .8rem 0 .8rem;
+	background:#d7d7d7;
+	border:1px dotted #ccc;
+	font-size:.5rem;
+	position: absolute;
+  left: 5px;
+  top: 45px;
+}
+div.uvasomical {
+	display:none;
+}
